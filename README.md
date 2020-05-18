@@ -8,7 +8,7 @@ Step1. go to kaldi workspace
 $ cd ~/kaldi/egs/kakdi_taiwanese/s5
 ```
 
-Step2. create convert audo sample rate bash file.
+Step2. create bash file with convert audo sample rate .
 
 ``` bash
 $ cat > wav22k_16k.sh
@@ -25,3 +25,5 @@ $ chmod +x wav22k_16k.sh
 ``` bash
 $ ./wav22k_16k.sh
 ```
+
+generate 16k audo wave file to train/wav and test/wav.
