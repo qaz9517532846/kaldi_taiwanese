@@ -34,6 +34,10 @@ step3. create python file: train.csv convert to train.txt
 $ chmod +x HW1_csv2text.py
 ```
 
+``` bash
+$ pyhton HW1_csv2text.py
+```
+
 step4. copy to lexicon dir after lexicon.txt delete last raw, copy to data/train and data/test dir after train.txt rename is text .
 
 step5. edit cmd.sh
@@ -51,4 +55,33 @@ content:
 step6. edit run.sh
 ``` bash
 $ gedit run.sh
+```
+
+step7. edit prepare_data.sh
+``` bash
+$ gedit local/prepare_data.sh
+```
+
+step8. edit prepare_dict.sh
+``` bash
+$ gedit local/prepare_dict.sh
+```
+
+step10. edit network and nvidia-gpu num.
+``` bash
+$ gedit local/chain/runt_dnn.sh
+```
+
+step11. edit run_ivector_common.sh
+``` bash
+$ gedit local/nnet3/run_ivector_common.sh
+```
+
+step13. run run.sh
+``` bash
+$ chmod +x run.sh
+```
+
+``` bash
+$ ./run.sh
 ```
