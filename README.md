@@ -77,7 +77,7 @@ step11. edit run_ivector_common.sh
 $ gedit local/nnet3/run_ivector_common.sh
 ```
 
-step13. run run.sh
+step12. run run.sh
 ``` bash
 $ chmod +x run.sh
 ```
