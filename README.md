@@ -21,3 +21,7 @@ $ gedit  wav22k_16k.sh
 ``` bash
 $ chmod +x wav22k_16k.sh
 ```
+
+``` bash
+$ ./wav22k_16k.sh
+```
