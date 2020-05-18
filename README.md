@@ -26,4 +26,12 @@ $ chmod +x wav22k_16k.sh
 $ ./wav22k_16k.sh
 ```
 
-generate 16k audo wave file to train/wav and test/wav.
+result: generate 16k audo wave file to train/wav and test/wav.
+
+step3. create python file: train.csv convert to train.txt
+
+``` bash
+$ chmod +x HW1_csv2text.py
+```
+
+step4. copy to lexicon dir after lexicon.txt delete last raw, copy to data/train and data/test dir after train.txt rename is text .
