@@ -35,3 +35,18 @@ $ chmod +x HW1_csv2text.py
 ```
 
 step4. copy to lexicon dir after lexicon.txt delete last raw, copy to data/train and data/test dir after train.txt rename is text .
+
+step5. edit cmd.sh
+
+``` bash
+$ gedit cmd.sh
+```
+
+content:
+---export train_cmd=run.pl
+---export decode_cmd=run.pl
+
+step6. edit run.sh
+``` bash
+$ gedit run.sh
+```
