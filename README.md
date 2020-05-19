@@ -81,6 +81,3 @@ $ chmod +x run.sh
 ``` bash
 $ ./run.sh
 ```
-
-dir tree
-![image](https://github.com/qaz9517532846/kaldi_taiwanese/blob/master/s5/123.png)
