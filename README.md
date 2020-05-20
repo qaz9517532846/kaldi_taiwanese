@@ -37,9 +37,9 @@ $ pyhton HW1_csv2text.py
 step4. copy to lexicon dir after lexicon.txt delete last raw, copy to data/train and data/test dir after train.txt rename is text .
 ![image](https://github.com/qaz9517532846/kaldi_taiwanese/blob/master/s5/dir_tree.jpg)
 
-step5. edit run_ivector_common.sh
+step5. edit run_tdnn.sh, set network and gpu num.
 ``` bash
-$ gedit local/nnet3/run_ivector_common.sh
+$ gedit local/chain/run_tdnn.sh
 ```
 
 step6. run run.sh
